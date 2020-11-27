@@ -8,9 +8,13 @@ So, for adding the `open in vscode` option, you just need to place the file `vsc
 
 # Installation
 
-Clone this repository and run:
+
+```shell
+sudo wget https://raw.githubusercontent.com/mhsattarian/nemo-open-in-vscode/master/vscode.nemo_action -O ~/.local/share/nemo/actions/vscode.nemo_action
+```
+
+Or, clone this repository and run:
 
 ```shell
 sudo cp nemo-open-in-vscode/vscode.nemo_action ~/.local/share/nemo/actions
 ```
-
